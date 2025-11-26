@@ -164,7 +164,7 @@ const MapView = ({ onNavigate }) => {
                   <div className="space-y-1 text-sm text-gray-600">
                     <div className="flex items-center gap-2">
                       <div className={`w-3 h-3 rounded-full ${getColourClass(selectedMarker.colourRound)}`}></div>
-                      <span>{selectedMarker.community}</span>
+                      <span>{selectedMarker.address}</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Users className="w-3 h-3" />
