@@ -115,7 +115,7 @@ const AuthPage = ({ onLoginSuccess }) => {
             }`}
           >
             {isLoading ? 'Processing...' : (isLogin ? 'Sign In' : 'Create Account')}
-            {!isLoading && <ArrowRight className="w-4 h-4 ml-2" />}
+            {!isLoading }
           </Button>
         </form>
 
